@@ -6,9 +6,9 @@ COPY cmd ./cmd
 COPY config ./config
 COPY go.mod ./
 COPY go.sum ./
+COPY vendor ./vendor
 COPY pkg ./pkg
 COPY internal ./internal
-COPY vendor ./vendor
 
 FROM dependencies AS build
 RUN CGO_ENABLED=0 GOOS=linux go build -o app ./cmd/
