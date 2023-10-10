@@ -14,7 +14,15 @@ nerdctl_build:
 	nerdctl build -t simpleapp . 
 
 docker_up:
-	docker-compose -f docker-compose.yml up
+	docker build -t simpleapp:latest  . 
+	docker-compose -f docker-compose.yml -p smlapp up
 
 nerdctl_up:
-	nerdctl compose up
+	nerdctl build -t simpleapp:latest . 
+	nerdctl compose -f docker-compose.yml -p smlapp up
+
+docker_down:
+	docker-compose -f docker-compose.yml -p smlapp down --remove-orphans
+
+nerdctl_down:
+	nerdctl compose -f docker-compose.yml -p smlapp down --remove-orphans
