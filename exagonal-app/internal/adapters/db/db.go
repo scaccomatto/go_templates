@@ -28,6 +28,7 @@ type Adapter struct {
 
 func NewAdapter(dataSourceUrl string) (*Adapter, error) {
 	db, openErr := gorm.Open(mysql.Open(dataSourceUrl), &gorm.Config{})
+
 	if openErr != nil {
 		return nil, fmt.Errorf("db connection error: %v", openErr)
 	}
