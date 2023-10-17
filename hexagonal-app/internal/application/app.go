@@ -3,10 +3,10 @@ package application
 import (
 	"log"
 
-	"paru.net/exagonalapp/internal/adapters/db"
-	"paru.net/exagonalapp/internal/application/api"
-	"paru.net/exagonalapp/internal/application/domain"
-	"paru.net/exagonalapp/internal/config"
+	"paru.net/hexagonalapp/internal/adapters/db"
+	"paru.net/hexagonalapp/internal/application/api"
+	"paru.net/hexagonalapp/internal/application/domain"
+	"paru.net/hexagonalapp/internal/config"
 )
 
 func Start() {

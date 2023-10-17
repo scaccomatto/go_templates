@@ -5,7 +5,7 @@ import (
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"paru.net/exagonalapp/internal/application/domain"
+	"paru.net/hexagonalapp/internal/application/domain"
 )
 
 type Order struct {

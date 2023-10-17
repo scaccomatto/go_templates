@@ -5,8 +5,8 @@ import (
 
 	"github.com/scaccomatto/proto/golang/order"
 
-	"paru.net/exagonalapp/internal/application/domain"
-	"paru.net/exagonalapp/internal/ports"
+	"paru.net/hexagonalapp/internal/application/domain"
+	"paru.net/hexagonalapp/internal/ports"
 )
 
 type Adapter struct {

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"paru.net/exagonalapp/internal/application"
+	"paru.net/hexagonalapp/internal/application"
 )
 
 func main() {

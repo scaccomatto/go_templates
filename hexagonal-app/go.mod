@@ -1,4 +1,4 @@
-module paru.net/exagonalapp
+module paru.net/hexagonalapp
 
 go 1.20
 

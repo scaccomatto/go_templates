@@ -15,8 +15,8 @@ services:
       - local
 
   api:
-    container_name: exagonal-con-app
-    image: exagonalapp:latest
+    container_name: hexagonal-con-app
+    image: hexagonalapp:latest
     depends_on:
       - db
     networks:

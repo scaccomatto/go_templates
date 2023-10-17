@@ -1,6 +1,6 @@
 package ports
 
-import "paru.net/exagonalapp/internal/application/domain"
+import "paru.net/hexagonalapp/internal/application/domain"
 
 type DBPort interface {
 	Get(id string) (domain.Order, error)

@@ -1,8 +1,8 @@
 package api
 
 import (
-	"paru.net/exagonalapp/internal/application/domain"
-	"paru.net/exagonalapp/internal/ports"
+	"paru.net/hexagonalapp/internal/application/domain"
+	"paru.net/hexagonalapp/internal/ports"
 )
 
 type Application struct {
