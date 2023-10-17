@@ -1,0 +1,9 @@
+APP:
+  NAME: hexagonal_app
+
+DATA_SOURCE:
+  URL: root:password@tcp(localhost:3306)/order?charset=utf8mb4&parseTime=True&loc=Local
+  PORT: 3306
+  
+
+  
